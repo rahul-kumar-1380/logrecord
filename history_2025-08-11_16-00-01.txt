@@ -1,0 +1,88 @@
+ssh -i ~/rahulaws.pem ec2-user@56.228.82.213
+ssh ec2-user@56.228.82.213
+ssh -i ~/rahulaws.pem ec2-user@56.228.82.213
+ssh ec2-user@56.228.82.213
+ssh-keygen -t rsa -b 4096 -c "auto@aws"
+ssh -i ~/rahulaws.pem ec2-user@51.20.94.19
+ssh ec2-user@51.20.94.19
+ssh -i ~/rahulaws.pem ec2-user@51.20.94.19
+ssh ec2-user@51.20.94.19
+ssh -i ~/rahulaws.pem ec2-user@51.20.94.19
+ssh ec2-user@51.20.94.19
+ssh -i ~/rahulaws.pem ec2-user@51.20.94.19
+ssh ec2-user@51.20.94.19
+vi shift_lines.sh
+vi inputfruits.txt
+./shift_lines.sh inputfruits.txt 3 output.txt
+chmod +x shift_lines.sh
+./shift_lines.sh inputfruits.txt 3 output.txt
+cat output.txt
+exit
+history
+ls
+rmdir rahul_stuff
+cd ..
+cd /home/rahul_stuff/
+cd /home/rahul_stuff
+pwd
+cd ../../
+pwd
+ls
+cd /home/
+cd /rahul_stuff
+ls
+cd /rahuluser
+cd /rahuluser/
+cd/home/rahuluser/rahul_stuff
+cd/home/rahuluser/rahul_stuff/
+cd/home/rahuluser/
+cd/home/rahuluser
+cd /rahuluser
+cd /home/rahuluser/
+ls
+cd /home/rahuluser/rahul_stuff/
+ls
+cd /home/rahuluser/rahul_stuff/rishu_stuff/
+ls
+cd /home/rahuluser/rahul_stuff/rishu_stuff/rishu_stuff2/
+ls
+rmdir rishu_stuff2
+cd ..
+rmdir rishu_stuff2
+cd ..
+rmdir rishu_stuff
+cd ..
+rmdir rahul_stuff
+cd rahul_stuff2
+ls
+cd ..
+rmdir rahul_stuff2
+ls
+vi -version
+vim vimassignment.txt
+cat vimassignment.txt 
+vim vimassignment.txt
+ls
+vim logrecord
+vim log_system.sh
+vim logrecordsend.sh
+cd ~
+git clone https://github.com/rahul-kumar-1380/logrecord.git
+vim logrecordsend.sh
+chmod +x logrecordsend.sh
+logrecordsend.sh
+./logrecordsend.sh
+crontab -e
+whoami
+cat /tmp/cron_log.txt
+vim logrecordsend.sh
+ls
+cat shift_lines.sh
+vim shift_lines.sh 
+./shift_lines.sh inputfruits.txt 2
+vim shift_lines.sh 
+./shift_lines.sh inputfruits.txt 2 output.txt
+cat inputfruits.txt 
+ls
+vim logrecordsend.sh
+exit
