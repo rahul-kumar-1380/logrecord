@@ -1,0 +1,20 @@
+ssh -i ~/rahulaws.pem ec2-user@56.228.82.213
+ssh ec2-user@56.228.82.213
+ssh -i ~/rahulaws.pem ec2-user@56.228.82.213
+ssh ec2-user@56.228.82.213
+ssh-keygen -t rsa -b 4096 -c "auto@aws"
+ssh -i ~/rahulaws.pem ec2-user@51.20.94.19
+ssh ec2-user@51.20.94.19
+ssh -i ~/rahulaws.pem ec2-user@51.20.94.19
+ssh ec2-user@51.20.94.19
+ssh -i ~/rahulaws.pem ec2-user@51.20.94.19
+ssh ec2-user@51.20.94.19
+ssh -i ~/rahulaws.pem ec2-user@51.20.94.19
+ssh ec2-user@51.20.94.19
+vi shift_lines.sh
+vi inputfruits.txt
+./shift_lines.sh inputfruits.txt 3 output.txt
+chmod +x shift_lines.sh
+./shift_lines.sh inputfruits.txt 3 output.txt
+cat output.txt
+exit
